@@ -14,9 +14,9 @@ You can install haikunator from github with:
 devtools::install_github("amrrs/haikunator")
 ```
 
-## Example
+## Examples
 
-Simple haikunate without any arguments. 
+**Simple haikunate without any arguments.**
 
 ``` r
 haikunate(3)
@@ -24,4 +24,13 @@ haikunate(3)
 #output
 > haikunate(3)
 [1] "super-sweet-356"
+```
+**haikunate with custom delimiter and different token length** 
+
+``` r
+haikunate(5,'.')
+
+#output
+> haikunate(5,'.')
+[1] "dry.empty.93974"
 ```
