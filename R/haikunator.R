@@ -1,5 +1,6 @@
 #' @title Generate Heroku-like Memorable Random Names
-#
+#' @description Generate Heroku-like memorable random names to use in your
+#' projects, apps or anywhere else.
 #' @param token_length Token Length
 #' @param delimiter Delimiter
 #' @param seed_value Seed Value

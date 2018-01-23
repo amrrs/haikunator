@@ -13,6 +13,10 @@ haikunate(token_length = 4, delimiter = "-", seed_value = NA)
 
 \item{seed_value}{Seed Value}
 }
+\description{
+Generate Heroku-like memorable random names to use in your
+projects, apps or anywhere else.
+}
 \examples{
 haikunate(5)
 haikunate(3,'.',123)
