@@ -2,7 +2,7 @@
 
 [![Travis-CI Build Status](https://travis-ci.org/amrrs/haikunator.svg?branch=master)](https://travis-ci.org/amrrs/haikunator)
 
-Generate Heroku-like Memorable Random Names in R
+Generate Heroku-like Memorable Random Names in R. Inspired by [haikunate](https://github.com/usmanbashir/haikunator)
 
 ## Installation
 
@@ -16,8 +16,12 @@ devtools::install_github("amrrs/haikunator")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Simple haikunate without any arguments. 
 
 ``` r
-## basic example code
+haikunate(3)
+
+#output
+> haikunate(3)
+[1] "super-sweet-356"
 ```
