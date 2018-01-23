@@ -1,6 +1,8 @@
 # haikunator
 
-The goal of haikunator is to ...
+[![Travis-CI Build Status](https://travis-ci.org/amrrs/haikunator.svg?branch=master)](https://travis-ci.org/amrrs/haikunator)
+
+Generate Heroku-like Memorable Random Names in R
 
 ## Installation
 
