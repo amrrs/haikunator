@@ -6,17 +6,12 @@ Generate Heroku-like Memorable Random Names in R. Inspired by [haikunate](https:
 
 ## Installation
 
-You can install haikunator from github with:
+You can install `haikunator` from github with:
 
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("amrrs/haikunator")
-```
-or from CRAN:
-
-``` r
-install.packages('haikunator')
 ```
 
 ## Getting Started
